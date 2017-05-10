@@ -1,3 +1,190 @@
 /*
  * Estilos reutilizables
  */
+ * {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+ }
+ .padding-25{
+  padding: 25px 0;
+ }
+ .transition-3{
+   transition: padding 0.3s;
+ }
+ .text-center {
+ 	text-align: center;
+ }
+ .margin-left{
+   margin-left: 16.66666667%;
+ }
+ .margin-20 {
+ 	margin: 20px;
+ }
+ /* Grid-system */
+ .container {
+   padding-right: 15px;
+   padding-left: 15px;
+   width: 100%;
+   margin: 0 auto;
+ }
+
+ .row {
+   margin-right: -15px;
+   margin-left: -15px;
+ }
+
+ .row:before, .row:after{
+   content: " ";
+   display: table;
+ }
+ .row:after {
+   clear: both;
+ }
+
+ [class*="col-"] {
+ 	min-height: 7px;
+ 	padding: 0 50px;
+  margin: 10px 0;
+ 	float: left;
+ }
+
+ .col-1 {
+ 	width: 8.333333%;
+ }
+
+ .col-2 {
+ 	width: 16.666667%;
+ }
+
+ .col-3 {
+ 	width: 25%;
+ }
+
+ .col-4 {
+ 	width: 33.333333%;
+ }
+
+ .col-5 {
+ 	width: 41.666667%;
+ }
+
+ .col-6 {
+ 	width: 50%;
+ }
+
+ .col-7 {
+ 		width: 58.333333%;
+ }
+
+ .col-8 {
+  	width: 66.666667%;
+ }
+
+ .col-9 {
+ 		width: 75%;
+ }
+
+ .col-10 {
+ 	width: 83.333333%;
+ }
+
+ .col-11 {
+ 	width: 91.666667%;
+ }
+
+ .col-12 {
+ 		width: 100%;
+ }
+
+.flex{
+  display: flex;
+}
+
+.row-reverse {
+  flex-direction: row-reverse;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.column-reverse {
+  flex-direction: column-reverse;
+}
+
+.no-wrap {
+  flex-wrap: nowrap;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.wrap-reverse {
+  flex-wrap: wrap-reverse;
+}
+
+.row-nowrap {
+  flex-flow: row nowrap;
+}
+
+.row-wrap {
+  flex-flow: row wrap;
+}
+
+.row-wrap-reverse {
+  flex-flow: row wrap-reverse;
+}
+
+.row-reverse-nowrap {
+  flex-flow: row-reverse nowrap;
+}
+
+.row-reverse-wrap {
+  flex-flow: row-reverse wrap;
+}
+
+.row-reverse-wrap-reverse {
+  flex-flow: row-reverse wrap-reverse;
+}
+
+.column-nowrap {
+  height: 500px;
+  overflow: hidden;
+  flex-flow: column nowrap;
+}
+
+.column-wrap {
+  height: 500px;
+  flex-flow: column wrap;
+}
+
+.column-wrap-reverse {
+  height: 500px;
+  flex-flow: column wrap-reverse;
+}
+
+.column-reverse-nowrap {
+  height: 500px;
+  overflow: hidden;
+  flex-flow: column-reverse nowrap;
+}
+
+.column-reverse-wrap {
+  height: 500px;
+  flex-flow: column-reverse wrap;
+}
+
+.column-reverse-wrap-reverse {
+  height: 500px;
+  flex-flow: column-reverse wrap-reverse;
+}
+
+.justify-content-center{
+  justify-content: center;
+}
+.flex-center{
+  justify-content: center;
+  align-items: center;
+}
